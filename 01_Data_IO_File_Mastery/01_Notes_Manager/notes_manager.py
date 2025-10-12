@@ -1,3 +1,3 @@
-# Notesmanager.Py
+from pathlib import Path
 
-# Mulai koding di sini...
+base_dir = Path 

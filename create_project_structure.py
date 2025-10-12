@@ -1,9 +1,10 @@
 from pathlib import Path
 
-# ==== Folder Structure ====
+# === Base folder (semua mini-project) ===
 base_dir = Path("01_Data_IO_File_Mastery")
 
-structure = {
+# === Daftar mini project ===
+projects = {
     "01_Notes_Manager": "notes_manager.py",
     "02_Sales_Summary": "sales_summary.py",
     "03_Product_Export_Manager": "product_export_manager.py",
@@ -11,33 +12,28 @@ structure = {
     "05_Daily_Data_Pipeline_Monitor": "daily_data_pipeline_monitor.py",
 }
 
-# ==== Create Folder Structure in Base Directory ====
-for folder, file_name in structure.items():
-    folder_path = base_dir / folder
-    folder_path.mkdir(parents=True, exist_ok=True)
+# === Loop untuk tiap mini project ===
+for folder, main_script in projects.items():
+    project_path = base_dir / folder
 
-    # === Create main Python file ===
-    file_path = folder_path / file_name
-    if not file_path.exists():
-        file_path.write_text("# " + file_name.replace("_", " ").title() + "\n\n# Start coding here...\n")
-        print(f"✅ Created file: {file_path}")
-    else:
-        print(f"⚠️ File already exists: {file_path}")
+    # Buat subfolder
+    for subfolder in ["data/raw", "data/processed", "logs", "src"]:
+        (project_path / subfolder).mkdir(parents=True, exist_ok=True)
 
-    # === Create README.md for each project ===
-    readme_path = folder_path / "README.md"
-    if not readme_path.exists():
-        readme_path.write_text(f"# {folder.replace('_', ' ')}\n\nDescription all of project will write here.\n")
-        print(f"📄 Created README.md at {readme_path}")
-    else:
-        print(f"⚠️ README.md already exists in {folder}")
+    # Buat file utama di src/
+    main_file = project_path / "src" / main_script
+    if not main_file.exists():
+        main_file.write_text(f"# {main_script.replace('_', ' ').title()}\n\n# Start coding here...\n")
 
-# === Create README.md in the base directory ===
-base_readme = base_dir / "README.md"
-if not base_readme.exists():
-    base_readme.write_text("# 01_Data_IO_File_Mastery\n\nDescription all of project will write here.")
-    print(f"✅ Created main README.md in {base_dir}")
-else:
-    print("⚠️ Main README.md already exists.")
+    # Buat file tambahan di src/
+    for extra in ["file_handler.py", "utils.py", "__init__.py"]:
+        extra_file = project_path / "src" / extra
+        if not extra_file.exists():
+            extra_file.write_text(f"# {extra.replace('_', ' ').title()} module\n")
 
-print("\n🎉 Folder structure created successfully.")
+    # Buat README.md di project
+    readme = project_path / "README.md"
+    if not readme.exists():
+        readme.write_text(f"# {folder.replace('_', ' ')}\n\nDescription will be written here.\n")
+
+print("✅ All project folders and files created successfully!")

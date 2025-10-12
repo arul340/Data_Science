@@ -1,0 +1,3 @@
+# Notesmanager.Py
+
+# Mulai koding di sini...

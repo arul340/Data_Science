@@ -1,0 +1,16 @@
+[
+    {
+        "product": "Palm Briquette",
+        "category": "Energy",
+        "price": "250",
+        "country": "Japan",
+        "status": "Ready to Ship"
+    },
+    {
+        "product": "Coffee Beans",
+        "category": "Food",
+        "price": "300",
+        "country": "Netherlands",
+        "status": "Ready to Ship"
+    }
+]

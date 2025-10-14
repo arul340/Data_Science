@@ -1,3 +1,0 @@
-# Productexportmanager.Py
-
-# Mulai koding di sini...

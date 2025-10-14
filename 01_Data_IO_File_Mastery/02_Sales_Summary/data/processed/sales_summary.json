@@ -1,0 +1,17 @@
+[
+  {
+    "product": "Coffee",
+    "total_quantity": 5,
+    "total_sales": 125000
+  },
+  {
+    "product": "Tea",
+    "total_quantity": 8,
+    "total_sales": 120000
+  },
+  {
+    "product": "Juice",
+    "total_quantity": 4,
+    "total_sales": 80000
+  }
+]

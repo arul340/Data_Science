@@ -1,0 +1,16 @@
+product,category,price,quantity,country
+Rice,Food,90,18,China
+Coconut Oil,FMCG,480,6,China
+Palm Oil,Energy,240,14,China
+Rubber,Raw Material,380,9,China
+Tea Leaves,Beverage,150,20,China
+Palm Oil,Energy,250,10,Japan
+Coconut Oil,FMCG,500,5,Japan
+Coffee Beans,Food,300,8,Japan
+Rice,Food,80,15,Japan
+Cocoa Powder,Food,200,12,Japan
+Palm Oil,Energy,260,12,USA
+Sugar,Food,100,20,USA
+Coffee Beans,Food,320,9,USA
+Cocoa Powder,Food,210,10,USA
+Rubber,Raw Material,400,7,USA

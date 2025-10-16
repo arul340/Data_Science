@@ -1,22 +1,22 @@
-# Utils.Py module
-import logging 
+import logging
 from datetime import datetime
 from pathlib import Path
 
-def setup_logging(log_path: Path):
+def setup_logging(path_log: Path):
     # Setup file log
-    log_path.parent.mkdir(parents=True, exist_ok=True)
+    path_log.parent.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
-        filename=log_path,
+        filename=path_log,
         level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s",
+        format = "%(asctime)s - %(levelname)s - %(message)s",
     )
-        # Tambah handler console
+
+    # Add handler console
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
     console.setFormatter(logging.Formatter("%(levelname)s - %(message)s"))
     logging.getLogger().addHandler(console)
 
-def log_action(message: str) :
-    # Log costum action ke file log.
+
+def log_action (message: str) :
     logging.info(f"{datetime.now().strftime('%Y-%m-%d : %H:%M:%S')} {message}")

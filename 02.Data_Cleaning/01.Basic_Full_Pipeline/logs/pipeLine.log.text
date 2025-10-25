@@ -1,0 +1,22 @@
+Loading sales_feb.csv 
+Loading sales_jan.csv 
+Loading sales_mar.csv 
+Total merged rows: 21 
+ 
+Loaded 3 file successfully 
+Handling Missing Values ... 
+Duplicates removed: 20 
+Handling outliers and anomalies ... 
+Loading sales_feb.csv 
+Loading sales_jan.csv 
+Loading sales_mar.csv 
+Total merged rows: 21 
+ 
+Loaded 3 file successfully 
+Handling Missing Values ... 
+Missing value handled: 4 filled 
+Duplicates removed: 1 
+Handling outliers and anomalies ... 
+Converting data types ... 
+Normalizing numeric colums ... 
+Pipeline complete succesfully 

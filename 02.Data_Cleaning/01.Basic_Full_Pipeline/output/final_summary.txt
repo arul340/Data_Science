@@ -1,0 +1,7 @@
+=== Pipeline Summary === 
+Total files processed: 3 
+Total rows merged: 20 
+Duplicate Removed: 1 
+Anomalies detected: 1 
+Normalization: Min-Max Scaling (0-1) 
+Pipeline Status: SUCCESS 

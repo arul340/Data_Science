@@ -20,7 +20,7 @@ os.makedirs(output_folder, exist_ok=True)
 os.makedirs(logs_folder, exist_ok=True)
 
 # ============================================================
-# 3. LOAD & VALIDATE FILES 
+# 2. LOAD & VALIDATE FILES 
 # ============================================================
 def log_info(message):
     print(f"\033[94m[INFO]\033[0m {message}]]")
@@ -100,6 +100,7 @@ for col in numeric_cols:
 # --- Isolation Forest for Anomaly Flag
 iso = IsolationForest(contamination=0.02, random_state=42)
 merge_df['anomaly_flag'] = iso.fit_predict(merge_df[numeric_cols])
+
 
 # ============================================================
 # 7. DATA TYPE CONVERSION

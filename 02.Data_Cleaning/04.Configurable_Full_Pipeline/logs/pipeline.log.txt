@@ -1,0 +1,64 @@
+2025-10-29 21:58:48 - INFO - === Pipeline Initialized ===
+2025-10-29 21:58:48 - INFO - Environment setup and  logging ready.
+2025-10-29 21:58:48 - INFO - === Pipeline Started ===
+2025-10-29 21:58:48 - INFO - === Pipeline Started ===
+2025-10-29 21:58:48 - INFO - Loading sales_feb.csv
+2025-10-29 21:58:48 - INFO - Loading sales_feb.csv
+2025-10-29 21:58:48 - INFO - Loading sales_jan.csv
+2025-10-29 21:58:48 - INFO - Loading sales_jan.csv
+2025-10-29 21:58:48 - INFO - Loading sales_mar.csv
+2025-10-29 21:58:48 - INFO - Loading sales_mar.csv
+2025-10-29 21:58:48 - INFO - Total merged rows: 24
+2025-10-29 21:58:48 - INFO - Total merged rows: 24
+2025-10-29 21:58:48 - INFO - Missing value handled: 4 filled
+2025-10-29 21:58:48 - INFO - Missing value handled: 4 filled
+2025-10-29 21:58:48 - INFO - Duplicated removed: 1
+2025-10-29 21:58:48 - INFO - Duplicated removed: 1
+2025-10-29 21:58:48 - INFO - No outliers detected in column Price
+2025-10-29 21:58:48 - INFO - No outliers detected in column Price
+2025-10-29 21:58:48 - INFO - No outliers detected in column Quantity
+2025-10-29 21:58:48 - INFO - No outliers detected in column Quantity
+2025-10-29 21:58:48 - INFO - No outliers detected in column Revenue
+2025-10-29 21:58:48 - INFO - No outliers detected in column Revenue
+2025-10-29 21:58:48 - INFO - Anomalies detected: 1 rows
+2025-10-29 21:58:48 - INFO - Anomalies detected: 1 rows
+2025-10-29 21:58:48 - INFO - Normalizing numeric columns ...
+2025-10-29 21:58:48 - INFO - Normalizing numeric columns ...
+2025-10-29 21:58:48 - INFO - Normalization complete.
+2025-10-29 21:58:48 - INFO - Normalization complete.
+2025-10-29 21:58:48 - INFO - Pipeline Failed: [Errno 22] Invalid argument: 'output\\final_cleaned_2025-10-29_21:58:48.csv'
+2025-10-29 21:58:48 - INFO - Pipeline Failed: [Errno 22] Invalid argument: 'output\\final_cleaned_2025-10-29_21:58:48.csv'
+2025-10-29 22:00:45 - INFO - === Pipeline Initialized ===
+2025-10-29 22:00:45 - INFO - Environment setup and  logging ready.
+2025-10-29 22:00:45 - INFO - === Pipeline Started ===
+2025-10-29 22:00:45 - INFO - === Pipeline Started ===
+2025-10-29 22:00:45 - INFO - Loading sales_feb.csv
+2025-10-29 22:00:45 - INFO - Loading sales_feb.csv
+2025-10-29 22:00:45 - INFO - Loading sales_jan.csv
+2025-10-29 22:00:45 - INFO - Loading sales_jan.csv
+2025-10-29 22:00:46 - INFO - Loading sales_mar.csv
+2025-10-29 22:00:46 - INFO - Loading sales_mar.csv
+2025-10-29 22:00:46 - INFO - Total merged rows: 24
+2025-10-29 22:00:46 - INFO - Total merged rows: 24
+2025-10-29 22:00:46 - INFO - Missing value handled: 4 filled
+2025-10-29 22:00:46 - INFO - Missing value handled: 4 filled
+2025-10-29 22:00:46 - INFO - Duplicated removed: 1
+2025-10-29 22:00:46 - INFO - Duplicated removed: 1
+2025-10-29 22:00:46 - INFO - No outliers detected in column Price
+2025-10-29 22:00:46 - INFO - No outliers detected in column Price
+2025-10-29 22:00:46 - INFO - No outliers detected in column Quantity
+2025-10-29 22:00:46 - INFO - No outliers detected in column Quantity
+2025-10-29 22:00:46 - INFO - No outliers detected in column Revenue
+2025-10-29 22:00:46 - INFO - No outliers detected in column Revenue
+2025-10-29 22:00:46 - INFO - Anomalies detected: 1 rows
+2025-10-29 22:00:46 - INFO - Anomalies detected: 1 rows
+2025-10-29 22:00:46 - INFO - Normalizing numeric columns ...
+2025-10-29 22:00:46 - INFO - Normalizing numeric columns ...
+2025-10-29 22:00:46 - INFO - Normalization complete.
+2025-10-29 22:00:46 - INFO - Normalization complete.
+2025-10-29 22:00:46 - INFO - Saved cleaned data to output\final_cleaned_2025-10-29_22.00.46.csv
+2025-10-29 22:00:46 - INFO - Saved cleaned data to output\final_cleaned_2025-10-29_22.00.46.csv
+2025-10-29 22:00:46 - INFO - Saved summary to output\final_summary.txt
+2025-10-29 22:00:46 - INFO - Saved summary to output\final_summary.txt
+2025-10-29 22:00:46 - INFO - === Pipeline Completed ===
+2025-10-29 22:00:46 - INFO - === Pipeline Completed ===

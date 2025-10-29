@@ -1,0 +1,17 @@
+{
+  "folders": {
+    "data": "data",
+    "output": "output",
+    "logs": "logs"
+  },
+  "settings": {
+    "handle_missing": true,
+    "handle_duplicates": true,
+    "detect_outliers_and_anomalies": true,
+    "normalization": "minmax"
+  },
+  "parameters": {
+    "isolation_forest_contamination": "0.02",
+    "random_state": 42
+  }
+}

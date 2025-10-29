@@ -1,0 +1,5 @@
+Total rows final: 23 
+Duplicates removed: 1 
+Anomalies detected: 0 
+Normalization: minmax 
+Pipeline Status: SUCCESS 

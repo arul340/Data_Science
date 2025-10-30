@@ -21,6 +21,7 @@ By completing this module, you will be able to:
 
 ## 🧱 Folder Structure
 
+```text
 01_Data_IO_File_Mastery/
 ├── 01_Notes_Manager/
 │ ├── notes_manager.py
@@ -46,6 +47,7 @@ By completing this module, you will be able to:
 
 ## 🧑‍💻 Author
 
-**Hasrul Sani (Arul)**  
-Learning Data Science for professional readiness — building portfolio one project at a time.  
+**Hasrul Sani (Arul)**
+Learning Data Science for professional readiness — building portfolio one project at a time.
 📍 _Indonesia_ | 🌐 [GitHub Profile](https://github.com/arul340)
+```

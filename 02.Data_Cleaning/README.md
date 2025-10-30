@@ -22,6 +22,7 @@ By completing this module, you will be able to:
 
 ## 🧱 Folder Structure
 
+````text
 02_Data_Cleaning/
 ├── 01.Basic_Full_Pipeline/
 │ ├── data/
@@ -63,7 +64,7 @@ By completing this module, you will be able to:
 
 ### 1️⃣ **Basic Full Pipeline**
 
-A single-script pipeline to handle missing values, duplicates, and outliers using IQR.  
+A single-script pipeline to handle missing values, duplicates, and outliers using IQR.
 Ideal for beginners to understand step-by-step cleaning flow.
 
 ### 2️⃣ **Modular Full Pipeline (Function-Based)**
@@ -104,6 +105,7 @@ A complete, professional-grade data cleaning system with:
 
 ## 📊 Example Log Output
 
+```text
 [INFO] Config file loaded successfully.
 [INFO] Environment setup complete.
 [INFO] Loading sales_jan.csv
@@ -119,13 +121,14 @@ A complete, professional-grade data cleaning system with:
 
 ## 🧑‍💻 Author
 
-**Hasrul Sani (Arul)**  
-Learning Data Science for professional readiness — building portfolio one project at a time.  
+**Hasrul Sani (Arul)**
+Learning Data Science for professional readiness — building portfolio one project at a time.
 📍 _Indonesia_ | 🌐 [GitHub Profile](https://github.com/arul340)
 
 ---
 
 ## 🧭 Next Learning Stage
 
-> Coming up next: `03_Data_Transformation_and_Feature_Engineering` ⚙️  
+> Coming up next: `03_Data_Transformation_and_Feature_Engineering` ⚙️
 > Focus: Feature encoding, scaling, dimensionality reduction, and dataset optimization for ML pipelines.
+````

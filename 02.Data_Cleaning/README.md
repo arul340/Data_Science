@@ -22,7 +22,7 @@ By completing this module, you will be able to:
 
 ## 🧱 Folder Structure
 
-````text
+```text
 02_Data_Cleaning/
 ├── 01.Basic_Full_Pipeline/
 │ ├── data/
@@ -59,6 +59,7 @@ By completing this module, you will be able to:
 └── README.md
 
 ---
+```
 
 ## 🧩 Project Breakdown
 
@@ -118,6 +119,7 @@ A complete, professional-grade data cleaning system with:
 [INFO] Pipeline completed successfully!
 
 ---
+```
 
 ## 🧑‍💻 Author
 
@@ -131,4 +133,7 @@ Learning Data Science for professional readiness — building portfolio one proj
 
 > Coming up next: `03_Data_Transformation_and_Feature_Engineering` ⚙️
 > Focus: Feature encoding, scaling, dimensionality reduction, and dataset optimization for ML pipelines.
-````
+
+```
+
+```

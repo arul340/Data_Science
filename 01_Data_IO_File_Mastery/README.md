@@ -43,11 +43,15 @@ By completing this module, you will be able to:
 │ ├── daily_data_pipeline_monitor.py
 │ └── README.md
 │
-└── README.md
+└── README.md\
+```
 
 ## 🧑‍💻 Author
 
 **Hasrul Sani (Arul)**
 Learning Data Science for professional readiness — building portfolio one project at a time.
 📍 _Indonesia_ | 🌐 [GitHub Profile](https://github.com/arul340)
+
+```
+
 ```

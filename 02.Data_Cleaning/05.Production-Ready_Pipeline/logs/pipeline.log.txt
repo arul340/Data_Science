@@ -1,0 +1,51 @@
+2025-10-30 21:49:24 - INFO - ==== Pipeline Initialized ====
+2025-10-30 21:49:24 - INFO - Loading sales_apr.csv
+2025-10-30 21:49:24 - INFO - Loading sales_feb.csv
+2025-10-30 21:49:24 - INFO - Loading sales_jan.csv
+2025-10-30 21:49:24 - INFO - Loading sales_jun.csv
+2025-10-30 21:49:24 - INFO - Loading sales_mar.csv
+2025-10-30 21:49:24 - INFO - Loading sales_may.csv
+2025-10-30 21:49:24 - INFO - Total merged rows: 56
+2025-10-30 21:49:24 - INFO - Missing value handled: 6 filled
+2025-10-30 21:49:24 - INFO - Duplicated removed: 1 rows
+2025-10-30 21:49:24 - INFO - No outliers detected in column Price
+2025-10-30 21:49:24 - INFO - No outliers detected in column Quantity
+2025-10-30 21:49:24 - INFO - No outliers detected in column Revenue
+2025-10-30 21:49:24 - INFO - Anomalies detected: 0 rows
+2025-10-30 21:49:24 - INFO - Error converting and normalizing data: 'normalization'
+2025-10-30 21:49:24 - INFO - Error saving results: Invalid file path or buffer object type: <class 'tuple'>
+2025-10-30 21:49:24 - INFO - Pipeline completed successfully!
+2025-10-30 21:50:26 - INFO - ==== Pipeline Initialized ====
+2025-10-30 21:50:26 - INFO - Loading sales_apr.csv
+2025-10-30 21:50:26 - INFO - Loading sales_feb.csv
+2025-10-30 21:50:26 - INFO - Loading sales_jan.csv
+2025-10-30 21:50:26 - INFO - Loading sales_jun.csv
+2025-10-30 21:50:26 - INFO - Loading sales_mar.csv
+2025-10-30 21:50:26 - INFO - Loading sales_may.csv
+2025-10-30 21:50:26 - INFO - Total merged rows: 56
+2025-10-30 21:50:26 - INFO - Missing value handled: 6 filled
+2025-10-30 21:50:26 - INFO - Duplicated removed: 1 rows
+2025-10-30 21:50:26 - INFO - No outliers detected in column Price
+2025-10-30 21:50:26 - INFO - No outliers detected in column Quantity
+2025-10-30 21:50:26 - INFO - No outliers detected in column Revenue
+2025-10-30 21:50:26 - INFO - Anomalies detected: 0 rows
+2025-10-30 21:50:26 - INFO - Error converting and normalizing data: 'normalization'
+2025-10-30 21:50:26 - INFO - Error saving results: Invalid file path or buffer object type: <class 'tuple'>
+2025-10-30 21:50:26 - INFO - Pipeline completed successfully!
+2025-10-30 21:57:35 - INFO - ==== Pipeline Initialized ====
+2025-10-30 21:57:35 - INFO - Loading sales_apr.csv
+2025-10-30 21:57:35 - INFO - Loading sales_feb.csv
+2025-10-30 21:57:35 - INFO - Loading sales_jan.csv
+2025-10-30 21:57:35 - INFO - Loading sales_jun.csv
+2025-10-30 21:57:35 - INFO - Loading sales_mar.csv
+2025-10-30 21:57:35 - INFO - Loading sales_may.csv
+2025-10-30 21:57:35 - INFO - Total merged rows: 56
+2025-10-30 21:57:35 - INFO - Missing value handled: 6 filled
+2025-10-30 21:57:35 - INFO - Duplicated removed: 1 rows
+2025-10-30 21:57:35 - INFO - No outliers detected in column Price
+2025-10-30 21:57:35 - INFO - No outliers detected in column Quantity
+2025-10-30 21:57:35 - INFO - No outliers detected in column Revenue
+2025-10-30 21:57:36 - INFO - Anomalies detected: 0 rows
+2025-10-30 21:57:36 - INFO - Error converting and normalizing data: 'normalization'
+2025-10-30 21:57:36 - INFO - Error saving results: Invalid file path or buffer object type: <class 'tuple'>
+2025-10-30 21:57:36 - INFO - Pipeline completed successfully!

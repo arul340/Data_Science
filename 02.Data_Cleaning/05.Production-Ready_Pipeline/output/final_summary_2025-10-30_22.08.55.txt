@@ -1,0 +1,6 @@
+Total rows final: 55
+Missing values: 0
+Duplicates removed: 1
+Anomalies detected: 0
+Normalization: Complete
+Pipeline Status: SUCCESS

@@ -1,5 +1,0 @@
-Total rows final: 29
-Duplicates removed: 1
-Anomalies detected: 0
-Normalization: Min-Max Scaling (0-1)
-Pipeline Status: SUCCESS 

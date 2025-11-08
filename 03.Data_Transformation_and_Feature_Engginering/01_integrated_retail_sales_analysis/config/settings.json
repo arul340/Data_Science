@@ -1,0 +1,14 @@
+{
+  "raw_data_path": "data/raw",
+  "processed_data_path": "data/processed/integrated_sales_cleaned.csv",
+  "report_output_path": "output/reports/summary_sales_report.csv",
+  "log_path": "logs/pipeline.log",
+  "missing_value_strategy": "mean",
+  "merge_key": "id_toko",
+  "parameters": {
+    "isolation_forest_contamination": 0.02,
+    "random_state": 42,
+    "normalization": "minmax",
+    "enable_isolation_forest": true
+  }
+}

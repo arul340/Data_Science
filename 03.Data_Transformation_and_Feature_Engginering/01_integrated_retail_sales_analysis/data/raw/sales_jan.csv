@@ -1,0 +1,11 @@
+id_transaksi,tanggal_transaksi,id_toko,produk,kategori,jumlah,harga_satuan,diskon
+1,2024-01-03,T001,Kopi Arabica,Minuman,10,25000,0.05
+2,2024-01-04,T002,Teh Hijau,Minuman,8,18000,0.10
+3,2024-01-05,T001,Roti Gandum,Makanan,6,15000,0.00
+4,2024-01-06,T003,Susu UHT,Minuman,12,20000,0.10
+5,2024-01-07,T002,Donat,Makanan,9,12000,0.00
+6,2024-01-08,T001,Kopi Robusta,Minuman,15,23000,0.05
+7,2024-01-09,T003,Biskuit,Makanan,5,10000,0.00
+8,2024-01-10,T002,Kopi Latte,Minuman,11,27000,0.15
+9,2024-01-11,T003,Teh Tarik,Minuman,7,19000,0.05
+10,2024-01-12,T001,Susu Coklat,Minuman,10,22000,0.00

@@ -1,0 +1,5 @@
+city,price_per_sqft_mean,price_mean,price_max,price_min,area_sqft_mean
+Bandung,0.43,0.41,0.71,0.2,0.44
+Jakarta,0.59,0.47,1.0,0.03,0.35
+Surabaya,0.63,0.5,0.86,0.16,0.35
+Yogyakarta,0.04,0.12,0.25,0.0,0.81

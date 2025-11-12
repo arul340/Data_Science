@@ -1,0 +1,15 @@
+{
+  "raw_data_path": "data/raw",
+  "processed_data_path": "data/processed",
+  "report_path": "output/reports",
+  "fig_path": "output/figures/correlation_heatmap.png",
+  "log_path": "logs/pipeline.log",
+  "missing_value_strategy": "mean",
+  "merge_key": "Id",
+  "parameters": {
+    "enable_isolation_forest": true,
+    "isolation_forest_contamination": 0.02,
+    "random_state": 42,
+    "normalization": "minmax"
+  }
+}

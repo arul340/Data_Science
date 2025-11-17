@@ -1,0 +1,38 @@
+{
+  "project": {
+    "name": "Costumer Segmentation & Behavior Analysis",
+    "version": "1.0.0",
+    "author": "Arul"
+  },
+  "paths": {
+    "input": {
+      "raw_data": "data/raw/raw_customer_behavior.csv"
+    },
+    "output": {
+      "cleaned_data": "data/processed/customer_behavior_cleaned.csv",
+      "features": "output/features/customer_features.csv",
+      "reports": "output/reports/customer_segment.csv",
+      "figures": "output/figures/customer_segment.png"
+    },
+    "logging": {
+      "log_file": "logs/pipeline.log.txt"
+    }
+  },
+  "parameters": {
+    "missing_value_stategy": "mean",
+    "merge_key": "customer_id",
+    "enable_isolation_forest": true,
+    "isolation_forest_contamination": 0.02,
+    "random_state": 42,
+    "normalization_type": "minmax",
+    "n_cluster": 3,
+    "figure_size": [8.6],
+    "enable_kmeans": true,
+    "kmean_clusters": 4
+  },
+  "runtime": {
+    "save_intermediate_files": true,
+    "log_level": "INFO",
+    "timestamped_output": true
+  }
+}

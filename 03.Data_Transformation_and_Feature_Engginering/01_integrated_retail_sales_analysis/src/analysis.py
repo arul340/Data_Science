@@ -9,3 +9,4 @@ def generate_report(df: pd.DataFrame, output_path: str) -> None:
           .reset_index()
     )
     report.to_csv(output_path, index=False)
+

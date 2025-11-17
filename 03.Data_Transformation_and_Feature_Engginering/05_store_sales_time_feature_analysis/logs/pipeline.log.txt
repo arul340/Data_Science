@@ -1,0 +1,9 @@
+[2025-11-14 22:03:19] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-14 22:03:19
+[2025-11-14 22:03:19] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-14 22:03:19] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:03:19] [INFO] [Store Sales Analysis Pipeline] Raw data successfully loaded.
+[2025-11-14 22:03:19] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+

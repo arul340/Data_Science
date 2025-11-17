@@ -1,0 +1,1505 @@
+[2025-11-12 20:50:35] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 20:50:35] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 20:57:09] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 20:57:09] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 20:58:58] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 20:58:58] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 20:58:58] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 20:58:58] [INFO] [customer_segmentation_pipeline]  Raw data successfully loaded.
+[2025-11-12 20:58:58] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-12 21:22:52] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 21:22:52] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 21:22:52] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 21:22:52] [ERROR] [customer_segmentation_pipeline]  Error loading data: No objects to concatenate
+[2025-11-12 21:31:34] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 21:31:34] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 21:31:34] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 21:31:34] [ERROR] [customer_segmentation_pipeline]  Error loading data: No CSV files found in folder: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\data\raw\raw_customer_behavior.csv
+[2025-11-12 21:50:46] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 21:50:46] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 21:50:46] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 21:50:46] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-12 21:50:46] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-12 21:50:46] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-12 21:50:46] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-12 22:24:56] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-12 22:24:57] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-12 22:24:57] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-12 22:24:57] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-12 22:24:57] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-12 22:25:48] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-12 22:25:49] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-12 22:25:49] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-12 22:25:49] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-12 22:25:49] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-12 22:26:45] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-12 22:26:46] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-12 22:26:46] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-12 22:26:46] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-12 22:26:46] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-12 22:27:30] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-12 22:27:31] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-12 22:27:31] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-12 22:27:31] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-12 22:27:31] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-12 22:28:27] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-12 22:28:28] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-12 22:28:28] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-12 22:28:28] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-12 22:28:28] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 20:57:00] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 20:57:02] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 20:57:02] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 20:57:02] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 20:57:02] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 20:57:02] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 20:57:02] [ERROR] [customer_segmentation_pipeline]  Error during feature engineering: 'visit_per_month'
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 20:57:59] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 20:58:00] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 20:58:00] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 20:58:00] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 20:58:00] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 20:58:00] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 20:58:00] [ERROR] [customer_segmentation_pipeline]  Error during feature engineering: 'Series' object is not callable
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 21:32:04] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 21:32:05] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 21:32:05] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 21:32:05] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 21:32:05] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 21:32:05] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 21:32:05] [ERROR] [customer_segmentation_pipeline]  Error during feature engineering: 'Series' object is not callable
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation completed.
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Generated 15 columns after feature engineering.
+[2025-11-13 21:34:36] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering' completed successfully!
+
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation completed.
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Generated 15 columns after feature engineering.
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering' completed successfully!
+
+[2025-11-13 21:42:24] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation completed.
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Generated 15 columns after feature engineering.
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering' completed successfully!
+
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-13 21:43:18] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-13 21:43:18] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: 'ouput'
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 21:44:18] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation completed.
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  Generated 15 columns after feature engineering.
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering' completed successfully!
+
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-13 21:44:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-13 21:44:19] [ERROR] [customer_segmentation_pipeline]  Error generating summary report: 'costumer_segmet'
+[2025-11-13 21:44:19] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: 'costumer_segmet'
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation completed.
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Generated 15 columns after feature engineering.
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering' completed successfully!
+
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-13 21:45:03] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-13 21:45:05] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-13 21:45:05] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-13 21:45:05] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-13 21:45:05] [ERROR] [customer_segmentation_pipeline]  K-Means Error: 'builtin_function_or_method' object is not subscriptable
+[2025-11-13 21:45:05] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: 'builtin_function_or_method' object is not subscriptable
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-13 21:52:28] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation completed.
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Generated 15 columns after feature engineering.
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering' completed successfully!
+
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-13 21:52:29] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-13 21:52:35] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-14 22:12:30] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-14 22:12:31] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-14 22:12:31] [ERROR] [customer_segmentation_pipeline]  Error generating summary report: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:12:31] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-14 22:13:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-14 22:13:45] [ERROR] [customer_segmentation_pipeline]  Error generating summary report: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:13:45] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-14 22:15:10] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-14 22:15:10] [ERROR] [customer_segmentation_pipeline]  Error generating summary report: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:15:10] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-14 22:16:22] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-14 22:16:22] [ERROR] [customer_segmentation_pipeline]  Error generating summary report: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:16:22] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:18:47] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-14 22:18:47] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-14 22:18:47] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:18:47] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-14 22:18:48] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-14 22:18:48] [ERROR] [customer_segmentation_pipeline]  Error generating summary report: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:18:48] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: Column 'costumer_segment' not found. Did you run Feature Engineering
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-14 22:19:21] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-14 22:19:23] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-14 22:19:23] [ERROR] [customer_segmentation_pipeline]  Error visualizing segments: Could not interpret value `costumer_segment` for `x`. An entry with this name does not appear in `data`.
+[2025-11-14 22:19:23] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-14 22:19:27] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-14 22:19:45] [ERROR] [customer_segmentation_pipeline]  Error visualizing segments: Could not interpret value `costumer_segment` for `x`. An entry with this name does not appear in `data`.
+[2025-11-14 22:19:45] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-14 22:19:47] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-14 22:33:12] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-14 22:33:13] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-14 22:33:13] [ERROR] [customer_segmentation_pipeline]  Error visualizing segments: Could not interpret value `costumer_segment` for `x`. An entry with this name does not appear in `data`.
+[2025-11-14 22:33:13] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-14 22:33:15] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-15 16:39:53] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-15 16:39:55] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-15 16:39:55] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-15 16:39:55] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-15 16:39:59] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 13
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-15 16:42:04] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-15 16:42:05] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-15 16:42:05] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-15 16:42:07] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 13
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-15 16:46:15] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-15 16:46:17] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-15 16:46:17] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-15 16:46:17] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-15 16:46:21] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 13
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-15 16:53:19] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-15 16:53:20] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-15 16:53:20] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-15 16:53:20] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-15 16:53:23] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 16:56:05] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 13
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 16:56:06] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 16:56:06] [ERROR] [customer_segmentation_pipeline]  Error generating summary report: Column 'customer_segment' not found. Did you run Feature Engineering
+[2025-11-15 16:56:06] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: Column 'customer_segment' not found. Did you run Feature Engineering
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 13
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 17:00:55] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 17:00:55] [ERROR] [customer_segmentation_pipeline]  Error generating summary report: Column 'customer_segment' not found. Did you run Feature Engineering
+[2025-11-15 17:00:55] [ERROR] [customer_segmentation_pipeline]  Analysis pipeline failed: Column 'customer_segment' not found. Did you run Feature Engineering
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 15
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-15 17:03:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-15 17:03:58] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-15 17:03:58] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-15 17:03:58] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-15 17:04:01] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 17:04:49] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 13
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-15 17:04:50] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-15 17:04:51] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-15 17:04:51] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-15 17:04:52] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 13
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-15 17:10:57] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-15 17:10:58] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-15 17:10:58] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-15 17:10:58] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-15 17:11:00] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Loaded single file: raw_customer_behavior.csv (35 rows), (9 cols)
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  All required columns found: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  No duplicate customer IDs found.
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Stage 'Data Loading' completed successfully!
+
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  No missing values found. Skipping missing value handling.
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  No duplicated rows found. Skipping duplicate handling.
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Outliers detected: 1 rows
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Numerical columns normalized.
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Stage 'Data Cleaning' completed successfully!
+
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Cleaned data shape: (34, 9)
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Encoded column: gender
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Encoded column: city
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Removed original categorical columns : ['gender', 'city'])
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Rule-based segmentation complete.
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Total columns after feature engineering: 13
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Stage 'Feature Engineering Completed' completed successfully!
+
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Feature dataset saved to output\features\customer_features.csv
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Behavioral Analysis
+==================================================
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Generating Summary Report
+==================================================
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  Stage 'Summary report saved: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-15 17:14:39] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Correlation Heatmap
+==================================================
+[2025-11-15 17:14:40] [INFO] [customer_segmentation_pipeline]  Stage 'Correlation heatmap saved: output\figures\customer_segment_heatmap.png' completed successfully!
+
+[2025-11-15 17:14:40] [INFO] [customer_segmentation_pipeline]  Stage 'Segment distribution plot saved: output\figures\customer_segment.png' completed successfully!
+
+[2025-11-15 17:14:40] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Running K-Means Clustering
+==================================================
+[2025-11-15 17:14:42] [INFO] [customer_segmentation_pipeline]  Stage 'K-Means clustering completed. Clusters: 4' completed successfully!
+
+[2025-11-17 20:24:51] [INFO] [customer_segmentation_pipeline]  === Logger Initialized  Successfully ===
+[2025-11-17 20:24:51] [INFO] [customer_segmentation_pipeline]  Logging to file : D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-17 20:24:51] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Costumer Segmentation Pipeline Started
+==================================================
+[2025-11-17 20:24:51] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  All required columns are present: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  No duplicates found.
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Normalized column 'age' using Min-Max scalling(min=20.0000, max=54.0000).
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Cleaning complete. Final shape: (35, 9).
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Stage 'Cleaned data saved to: output\features\customer_features.csv' completed successfully!
+
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Encoded 'gender' and 'city'  into numeric features.
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Compute spending_efficiency, loyalty_score, and engagement_index.
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Customer segment distribution: 
+customer_segment
+High-Value    35
+Name: count, dtype: int64
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Feature engineering completed. Output features: (35, 13)
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Stage 'Feature data saved to: output\features\customer_features.csv' completed successfully!
+
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Analysis & Reporting
+==================================================
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Customer segment report save to: output\reports\customer_segment.csv
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Report preview:
+  customer_segment  n_customers  ...  loyalty_score_mean  engagement_index_mean
+0       High-Value           35  ...          -15.285714                  171.6
+
+[1 rows x 10 columns]
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  Stage 'Report saved to: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-17 20:24:52] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Pipeline Completed
+==================================================
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  === Logger Initialized Successfully ===
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Logging to file: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\04_customer_segmentation_behavioral_analysis\logs\pipeline.log.txt
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Customer Segmentation Pipeline Started
+==================================================
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  All required columns are present: ['customer_id', 'age', 'gender', 'annual_income_usd', 'spending_score', 'visits_per_month', 'avg_transaction_value', 'days_since_last_purchase', 'city']
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  No duplicates found.
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Normalized column 'age' using Min-Max scaling (min=20.0000, max=54.0000).
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Normalized column 'annual_income_usd' using Min-Max scaling (min=26000.0000, max=98000.0000).
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Normalized column 'spending_score' using Min-Max scaling (min=18.0000, max=88.0000).
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Normalized column 'visits_per_month' using Min-Max scaling (min=2.0000, max=15.0000).
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Normalized column 'avg_transaction_value' using Min-Max scaling (min=264.0000, max=1495.0000).
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Normalized column 'days_since_last_purchase' using Min-Max scaling (min=1.0000, max=55.0000).
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Cleaning complete. Final shape: (35, 9).
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Stage 'Cleaned data saved to: data\processed\customer_behavior_cleaned.csv' completed successfully!
+
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Encoded 'gender' and 'city' into numeric features.
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Computed spending_efficiency, loyalty_score, and engagement_index.
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Customer segment distribution: 
+customer_segment
+Medium-Value    15
+Low-Value       13
+High-Value       7
+Name: count, dtype: int64
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Feature engineering completed. Output features: (35, 13)
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Stage 'Feature data saved to: output\features\customer_features.csv' completed successfully!
+
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Analysis & Reporting
+==================================================
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Customer segment report saved to: output\reports\customer_segment.csv
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Report preview:
+  customer_segment  n_customers  age_mean  ...  spending_efficiency_mean  loyalty_score_mean  engagement_index_mean
+0       High-Value            7  0.176471  ...                  0.758399            0.888889               0.842467
+1        Low-Value           13  0.721719  ...                  0.077599            0.472934               0.255675
+2     Medium-Value           15  0.443137  ...                  0.330476            0.848148               0.585841
+
+[3 rows x 10 columns]
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  Stage 'Report saved to: output\reports\customer_segment.csv' completed successfully!
+
+[2025-11-17 20:39:38] [INFO] [customer_segmentation_pipeline]  
+==================================================
+>>> Starting Stage: Pipeline Completed
+==================================================

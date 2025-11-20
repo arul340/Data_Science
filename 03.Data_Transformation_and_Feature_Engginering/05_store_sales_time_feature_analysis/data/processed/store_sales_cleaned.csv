@@ -1,0 +1,21 @@
+transaction_id,transaction_date,store_id,product_id,customer_id,quantity,unit_price,payment_method,total_sales,year,month,day,weekday,week_number,is_weekend,hour,time_of_day,revenue,avg_price_per_item,is_exact_hour,rolling_7_revenue,daily_sales_rank,is_first_purchase,customer_visit_count,customer_monthly_frequency
+T0001,2024-01-01 09:15:00,S01,P001,C001,2,15000,cash,30000,2024,1,1,0,1,False,9,morning,30000,15000,False,,2.0,True,2,2
+T0002,2024-01-01 12:44:00,S01,P003,C004,1,35000,qris,35000,2024,1,1,0,1,False,12,Afternoon,35000,35000,False,,1.0,True,3,3
+T0004,2024-01-02 08:33:00,S01,P005,C003,1,12000,credit,12000,2024,1,2,1,1,False,8,morning,12000,12000,False,,1.0,True,1,1
+T0007,2024-01-03 10:22:00,S01,P003,C004,1,35000,debit,35000,2024,1,3,2,1,False,10,morning,35000,35000,False,,1.0,False,3,3
+T0010,2024-01-04 11:05:00,S01,P001,C002,3,15000,qris,45000,2024,1,4,3,1,False,11,morning,45000,15000,False,,1.0,False,3,3
+T0013,2024-01-05 09:33:00,S01,P003,C001,1,35000,qris,35000,2024,1,5,4,1,False,9,morning,35000,35000,False,,1.0,False,2,2
+T0018,2024-01-06 20:10:00,S01,P002,C004,1,22000,cash,22000,2024,1,6,5,1,True,20,evening,22000,22000,False,,1.0,False,3,3
+T0003,2024-01-01 17:05:00,S02,P002,C007,3,22000,debit,66000,2024,1,1,0,1,False,17,Afternoon,66000,22000,False,,1.0,True,2,2
+T0006,2024-01-02 19:45:00,S02,P001,C008,2,15000,qris,30000,2024,1,2,1,1,False,19,evening,30000,15000,False,,1.0,True,2,2
+T0009,2024-01-03 18:55:00,S02,P002,C009,1,22000,credit,22000,2024,1,3,2,1,False,18,evening,22000,22000,False,,1.0,True,1,1
+T0012,2024-01-04 20:40:00,S02,P006,C005,1,25000,cash,25000,2024,1,4,3,1,False,20,evening,25000,25000,False,,1.0,True,1,1
+T00114,2024-01-05 16:57:00,S02,P002,C008,2,22000,credit,44000,2024,1,5,4,1,False,16,Afternoon,44000,22000,False,,1.0,False,2,2
+T0016,2024-01-06 11:44:00,S02,P006,C012,1,25000,debit,25000,2024,1,6,5,1,True,11,morning,25000,25000,False,,1.0,True,1,1
+T0019,2024-01-07 10:12:00,S02,P005,C002,4,12000,debit,48000,2024,1,7,6,1,True,10,morning,48000,12000,False,,1.0,False,3,3
+T0005,2024-01-02 14:10:00,S03,P004,C002,4,18000,cash,72000,2024,1,2,1,1,False,14,Afternoon,72000,18000,False,,1.0,True,3,3
+T0008,2024-01-03 13:37:00,S03,P006,C006,2,25000,cash,50000,2024,1,3,2,1,False,13,Afternoon,50000,25000,False,,1.0,True,1,1
+T0011,2024-01-04 15:20:00,S03,P004,C010,2,18000,debit,36000,2024,1,4,3,1,False,15,Afternoon,36000,18000,False,,1.0,True,1,1
+T0015,2024-01-05 19:30:00,S03,P005,C011,3,12000,cash,36000,2024,1,5,4,1,False,19,evening,36000,12000,False,,1.0,True,1,1
+T0017,2024-01-06 14:08:00,S03,P004,C013,2,18000,qris,36000,2024,1,6,5,1,True,14,Afternoon,36000,18000,False,,1.0,True,1,1
+T0020,2024-01-07 18:33:00,S03,P003,C007,2,35000,cash,70000,2024,1,7,6,1,True,18,evening,70000,35000,False,,1.0,False,2,2

@@ -1,18 +1,19 @@
 {
   "project": {
-    "name": "Customer Segmentation & Behavior Analysis",
+    "name": "Store Sales Time Analysis",
     "version": "1.0.0",
     "author": "Arul"
   },
   "paths": {
     "input": {
-      "raw_data": "data/raw/raw_customer_behavior.csv"
+      "raw_data": "data/raw/store_sales_raw.csv"
     },
     "output": {
-      "cleaned_data": "data/processed/customer_behavior_cleaned.csv",
-      "features": "output/features/customer_features.csv",
-      "reports": "output/reports/customer_segment.csv",
-      "figures": "output/figures/customer_segment.png"
+      "cleaned_data": "data/processed/store_sales_cleaned.csv",
+      "features": "output/features/store_features.csv",
+      "reports": "output/reports/",
+      "figures": "output/figures/costumer_segment.png",
+      "correlation_heatmap": "output/figures/correlation_heatmap.png"
     },
     "logging": {
       "log_file": "logs/pipeline.log.txt"
@@ -20,7 +21,7 @@
   },
   "parameters": {
     "missing_value_strategy": "mean",
-    "merge_key": "customer_id",
+    "merge_key": "transaction_id",
     "enable_isolation_forest": true,
     "isolation_forest_contamination": 0.02,
     "random_state": 42,
@@ -32,7 +33,7 @@
     "segment_high_threshold": 0.75,
     "segment_medium_threshold": 0.4
   },
-  "runtime": {
+  "run_time": {
     "save_intermediate_files": true,
     "log_level": "INFO",
     "timestamped_output": true

@@ -7,3 +7,654 @@
 [2025-11-14 22:03:19] [INFO] [Store Sales Analysis Pipeline] Raw data successfully loaded.
 [2025-11-14 22:03:19] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
 
+[2025-11-19 22:21:16] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:21:16
+[2025-11-19 22:21:16] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:21:16] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:21:16] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:25:17] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:25:17
+[2025-11-19 22:25:17] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:25:17] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:25:17] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:25:31] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:25:31
+[2025-11-19 22:25:31] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:25:31] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:25:31] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:26:17
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-19 22:26:17] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-19 22:26:17] [ERROR] [Store Sales Analysis Pipeline] Failed during Feature Engineering: "['first_purcase_date'] not found in axis"
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:29:41
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-19 22:29:41] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-19 22:29:42] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-19 22:29:42] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-19 22:29:42] [ERROR] [Store Sales Analysis Pipeline] Failed during Feature Engineering: "['first_purcase_date'] not found in axis"
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:30:59
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-19 22:30:59] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-19 22:30:59] [ERROR] [Store Sales Analysis Pipeline] Failed during Feature Engineering: "['first_purcase_date'] not found in axis"
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:33:15
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-19 22:33:15] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-19 22:33:15] [ERROR] [Store Sales Analysis Pipeline] Failed during Feature Engineering: "['first_purcase_date'] not found in axis"
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:41:36
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Customer behavior features engineered. Shape: (20, 25)
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Stage 'Feature Engineering'  completed successfully!
+
+[2025-11-19 22:41:36] [ERROR] [Store Sales Analysis Pipeline] Failed to save CSV at data\processed\store_sales_cleaned.csv: [Errno 13] Permission denied: 'data\\processed\\store_sales_cleaned.csv'
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis and Reporting
+==================================================
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis Pipeline
+==================================================
+[2025-11-19 22:41:36] [INFO] [Store Sales Analysis Pipeline] Report will be saved under: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\output\reports
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-19 22:43:54
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Customer behavior features engineered. Shape: (20, 25)
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Stage 'Feature Engineering'  completed successfully!
+
+[2025-11-19 22:43:54] [ERROR] [Store Sales Analysis Pipeline] Failed to save CSV at data\processed\store_sales_cleaned.csv: [Errno 13] Permission denied: 'data\\processed\\store_sales_cleaned.csv'
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis and Reporting
+==================================================
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis Pipeline
+==================================================
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Report will be saved under: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\output\reports
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Running daily analysis...
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Running weekly analysis...
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Running hourly analysis...
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Running store performance analysis...
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Running payment method analysis... 
+[2025-11-19 22:43:54] [INFO] [Store Sales Analysis Pipeline] Running customer behavior analysis...
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-20 16:26:21
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Customer behavior features engineered. Shape: (20, 25)
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Stage 'Feature Engineering'  completed successfully!
+
+[2025-11-20 16:26:21] [ERROR] [Store Sales Analysis Pipeline] Failed to save CSV at data\processed\store_sales_cleaned.csv: [Errno 13] Permission denied: 'data\\processed\\store_sales_cleaned.csv'
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis and Reporting
+==================================================
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis Pipeline
+==================================================
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Report will be saved under: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\output\reports
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Running daily analysis...
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Running weekly analysis...
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Running hourly analysis...
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Running store performance analysis...
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Running payment method analysis... 
+[2025-11-20 16:26:21] [INFO] [Store Sales Analysis Pipeline] Running customer behavior analysis...
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-20 16:28:16
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Customer behavior features engineered. Shape: (20, 25)
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Stage 'Feature Engineering'  completed successfully!
+
+[2025-11-20 16:28:16] [ERROR] [Store Sales Analysis Pipeline] Failed to save CSV at data\processed\store_sales_cleaned.csv: [Errno 13] Permission denied: 'data\\processed\\store_sales_cleaned.csv'
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis and Reporting
+==================================================
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis Pipeline
+==================================================
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Report will be saved under: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\output\reports
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Running daily analysis...
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Running weekly analysis...
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Running hourly analysis...
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Running store performance analysis...
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Running payment method analysis... 
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Running customer behavior analysis...
+[2025-11-20 16:28:16] [INFO] [Store Sales Analysis Pipeline] Building main KPI summary report...
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-20 16:32:36
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Customer behavior features engineered. Shape: (20, 25)
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Stage 'Feature Engineering'  completed successfully!
+
+[2025-11-20 16:32:36] [ERROR] [Store Sales Analysis Pipeline] Failed to save CSV at data\processed\store_sales_cleaned.csv: [Errno 13] Permission denied: 'data\\processed\\store_sales_cleaned.csv'
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis and Reporting
+==================================================
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis Pipeline
+==================================================
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Report will be saved under: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\output\reports
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Running daily analysis...
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Running weekly analysis...
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Running hourly analysis...
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Running store performance analysis...
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Running payment method analysis... 
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Running customer behavior analysis...
+[2025-11-20 16:32:36] [INFO] [Store Sales Analysis Pipeline] Building main KPI summary report...
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-20 16:33:12
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Normalized column 'quantity' using Min-Max scaling.(min=1.0000, max=4.0000)
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Normalized column 'unit_price' using Min-Max scaling.(min=12000.0000, max=35000.0000)
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Customer behavior features engineered. Shape: (20, 25)
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Stage 'Feature Engineering'  completed successfully!
+
+[2025-11-20 16:33:12] [ERROR] [Store Sales Analysis Pipeline] Failed to save CSV at data\processed\store_sales_cleaned.csv: [Errno 13] Permission denied: 'data\\processed\\store_sales_cleaned.csv'
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis and Reporting
+==================================================
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis Pipeline
+==================================================
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Report will be saved under: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\output\reports
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Running daily analysis...
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Running weekly analysis...
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Running hourly analysis...
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Running store performance analysis...
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Running payment method analysis... 
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Running customer behavior analysis...
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Building main KPI summary report...
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Stage 'Main analysis report saved to output\reports\store_sales_analysis_report.csv'  completed successfully!
+
+[2025-11-20 16:33:12] [INFO] [Store Sales Analysis Pipeline] Stage 'Pipeline Finished'  completed successfully!
+
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-20 16:51:31
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Configuration loaded succesfullyu from config/settings.json
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 16)
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 21)
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Customer behavior features engineered. Shape: (20, 24)
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Stage 'Feature Engineering'  completed successfully!
+
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Saved CSV: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\processed\store_sales_cleaned.csv shape: (20, 24)
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis and Reporting
+==================================================
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis Pipeline
+==================================================
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Report will be saved under: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\output\reports
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Running daily analysis...
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Running weekly analysis...
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Running hourly analysis...
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Running store performance analysis...
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Running payment method analysis... 
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Running customer behavior analysis...
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Building main KPI summary report...
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Stage 'Main analysis report saved to output\reports\store_sales_analysis_report.csv'  completed successfully!
+
+[2025-11-20 16:51:31] [INFO] [Store Sales Analysis Pipeline] Stage 'Pipeline Finished'  completed successfully!
+
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Logger initialized at: 2025-11-20 17:46:27
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Logging to file: logs\pipeline.log.txt
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Pipeline Initialization
+==================================================
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Configuration loaded successfully from config/settings.json
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Loading
+==================================================
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Loaded single file: store_sales_raw.csv (20 rows) (8 cols) 
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Stage 'Data loaded successfully from D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\raw\store_sales_raw.csv'  completed successfully!
+
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] All required columns found: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Found 7 duplicate customer IDs (will be handled later).
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Stage 'Data Loading'  completed successfully!
+
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Data Cleaning
+==================================================
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] All required columns are present: ['transaction_date', 'store_id', 'product_id', 'customer_id', 'quantity', 'unit_price', 'payment_method']
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Created total_sales column.
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Duplicated removed: 0
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Data cleaning completed successfully.
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Feature Engineering
+==================================================
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Converted 'transaction_date' to datetime format and drop invalid rows.
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Time features engineered. Shape: (20, 17)
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Sales features engineered. Shape: (20, 22)
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Customer behavior features engineered. Shape: (20, 25)
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Stage 'Feature Engineering'  completed successfully!
+
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Saved CSV: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\data\processed\store_sales_cleaned.csv shape: (20, 25)
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis and Reporting
+==================================================
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] 
+==================================================
+>>> Starting Stage: Analysis Pipeline
+==================================================
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Report will be saved under: D:\Coding Learning\12.Python\Porject for Github\Data_Science\03.Data_Transformation_and_Feature_Engginering\05_store_sales_time_feature_analysis\output\reports
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Running daily analysis...
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Running weekly analysis...
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Running hourly analysis...
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Running store performance analysis...
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Running payment method analysis... 
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Running customer behavior analysis...
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Building main KPI summary report...
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Stage 'Main analysis report saved to output\reports\store_sales_analysis_report.csv'  completed successfully!
+
+[2025-11-20 17:46:27] [INFO] [Store Sales Analysis Pipeline] Stage 'Pipeline Finished'  completed successfully!
+

@@ -18,7 +18,12 @@ def setup_logger(config_path:str = "config/settings.json" ) -> logging.Logger:
 
     # Create Logger
     logger = logging.getLogger("Store Sales Analysis Pipeline")
-    logger.setLevel(config.get("runtime", {}).get("log_level", "INFO"))
+    runtime_cfg = (
+        config.get("runtime")
+        or config.get("run_time")
+        or {}
+    )   
+    logger.setLevel(runtime_cfg.get("log_level", "INFO"))
 
     # Prevent duplicate handlers if function is called multiple times
     if logger.hasHandlers():
@@ -65,7 +70,6 @@ def log_success (logger: logging.Logger, stage_name: str) -> None:
 
 
 if __name__ == "__main__":
-    # Example usage (for quick test)
     logger = setup_logger()
     log_stage(logger, "Data Loading")
     log_info(logger, "Raw data successfully loaded.")

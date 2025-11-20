@@ -1,0 +1,2 @@
+total_revenue,total_transactions,total_items,avg_revenue_per_transaction,busiest_day,busiest_day_revenue,slowest_day,slowest_day_revenue,peak_hour,peak_hour_revenue,top_store_id,top_store_revenue,n_customers,n_new_customers,n_repeat_customers,repeat_ratio,new_ratio,avg_transaction_per_customer
+774000.0,20,39.0,38700.0,Monday,131000.0,Saturday,83000.0,14,108000.0,S01,214000.0,13.0,8.0,5.0,0.38461538461538464,0.6153846153846154,1.5384615384615385

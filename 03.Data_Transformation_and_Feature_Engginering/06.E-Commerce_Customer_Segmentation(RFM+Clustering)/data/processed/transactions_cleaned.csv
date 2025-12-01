@@ -1,0 +1,47 @@
+order_id,customer_id,order_date,amount,status,product_category,region,payment_method,is_outlier_amount
+1001,C001,2024-01-03,150000.0,delivered,electronics,west,credit card,False
+1002,C002,2024-01-05,75000.0,cancelled,fashion,east,debit card,False
+1003,C001,2024-01-10,200000.0,delivered,electronics,west,credit card,False
+1004,C003,2024-01-11,120000.0,pending,home and living,north,cod,False
+1005,C004,2024-01-12,175000.0,delivered,electronics,south,upi,False
+1006,C002,2024-01-13,90000.0,shipped,fashion,east,debit card,False
+1007,C005,2024-01-14,250000.0,delivered,electronics,west,credit card,False
+1008,C006,2024-01-15,50000.0,cancelled,fashion,south,cod,False
+1009,C003,2024-01-16,130000.0,delivered,home and living,north,upi,False
+1010,C001,2024-01-18,90000.0,returned,electronics,west,debit card,False
+1011,C007,2024-01-20,300000.0,delivered,electronics,east,credit card,False
+1012,C004,2024-01-22,200000.0,shipped,electronics,south,upi,False
+1014,C003,2024-01-25,150000.0,delivered,home and living,north,credit card,False
+1015,C006,2024-01-26,80000.0,delivered,fashion,south,debit card,False
+1016,C009,2024-01-28,220000.0,shipped,electronics,west,upi,False
+1017,C010,2024-01-30,140000.0,delivered,home and living,east,credit card,False
+1018,C011,2024-02-01,95000.0,delivered,fashion,south,debit card,False
+1019,C012,2024-02-02,180000.0,cancelled,electronics,north,credit card,False
+1020,C007,2024-02-03,120000.0,delivered,home and living,east,upi,False
+1021,C013,2024-02-05,275000.0,shipped,electronics,west,credit card,False
+1023,C001,2024-02-08,160000.0,delivered,electronics,west,debit card,False
+1024,C015,2024-02-10,85000.0,returned,fashion,north,cod,False
+1025,C003,2024-02-12,190000.0,delivered,home and living,north,credit card,False
+1026,C016,2024-02-15,5000000.0,delivered,electronics,west,credit card,True
+1027,C017,2024-02-18,2500.0,delivered,fashion,east,debit card,False
+1029,C018,2024-02-22,165000.0,shipped,electronics,west,credit card,False
+1030,C019,2024-02-25,88000.0,delivered,fashion,east,debit card,False
+1031,C002,2024-02-28,145000.0,cancelled,electronics,south,upi,False
+1032,C020,2024-03-01,210000.0,pending,home and living,north,credit card,False
+1033,C021,2024-03-03,95000.0,delivered,fashion,west,debit card,False
+1034,C008,2024-03-05,320000.0,shipped,electronics,east,credit card,False
+1035,C022,2024-03-08,125000.0,delivered,home and living,south,upi,False
+1037,C001,2024-03-12,185000.0,delivered,electronics,west,credit card,False
+1038,C024,2024-03-15,42000.0,cancelled,fashion,east,debit card,False
+1039,C003,2024-03-18,165000.0,shipped,home and living,north,upi,False
+1040,C025,2024-03-20,290000.0,delivered,electronics,south,credit card,False
+1041,C026,2024-03-22,115000.0,pending,fashion,west,cod,False
+1042,C027,2024-03-25,198000.0,delivered,electronics,east,credit card,False
+1043,C007,2024-03-28,135000.0,returned,home and living,south,debit card,False
+1044,C028,2024-03-30,255000.0,shipped,electronics,north,credit card,False
+1045,C029,2024-04-02,68000.0,delivered,fashion,east,upi,False
+1046,C030,2024-04-05,172000.0,cancelled,electronics,west,credit card,False
+1047,C008,2024-04-08,89000.0,pending,fashion,south,cod,False
+1048,C031,2024-04-10,215000.0,delivered,home and living,north,debit card,False
+1049,C001,2024-04-12,148000.0,shipped,electronics,west,credit card,False
+1050,C032,2024-04-15,195000.0,delivered,electronics,east,upi,False

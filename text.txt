@@ -1,0 +1,157 @@
+Tips Inti: Cara Memahami Sebuah Dataset Supaya Cleaning & FE Tepat Sasaran
+
+1. Pahami Dulu "Peran Data" Dalam Bisnis (Contex First)
+
+    Sebelum menyentuh python atau coding:
+    ? Tanya dulu: "Data ini untuk apa dan siapa yang akan menggunakannya". Karena perlakuan data akan berbeda tergantung konteks.
+
+    Contoh:
+
+    Data Transaksi E-Commerce
+    Perlakukan amount harus 100% akurat, karena:
+        -> Digunakan untuk revenue KPI.
+        -> Mempengaruhi cluster segmentation.
+        -> Analisis customer value.
+        -> Laporan Keungan.
+    
+    Data Sensor IoT
+    Missing value interpolasi. Data memang noisy
+    Outlier kadang valid (pembacaan tiba-tiba perubahan lingkungan)
+
+    Data HR 
+    Ketegori jabatan harus konsisten. Tidak boleh "staff", "staff", "Staff".
+
+    Data Marketing Campaign
+    Missing click/impression wajar - bisa isi 0.
+
+    Tipsnya: Konteks menentukan apa yang Boleh dan Tidak Boleh Dilakukan.
+
+2. Kenali Jenis Kolomnya (Feature Type Awarness)
+    Gunakan prinsip "Column Categorization"
+    -> Tipe kolom Critical Numeric (amount, salary) - TIDAK BOLEH imputasi mean.
+    -> Tipe kolom Categorical (region, gender) - standardisasi, imputasi mode.
+    -> Tipe kolom Identifier (customer_id) - harus valid, tidak boleh NaN.
+    -> Tipe kolom Time Column (order_date) - parsing benar, tidak amputasi.
+    -> Tipe kolom Behavioral Metrics (frequency, sessions) - boleh transformasi.
+    -> Tipe kolom Free text (comments) - biasanya tidak dipakai dicleaning.
+
+    Setiap tipe aturan cleaning berbeda. 
+
+3. Tanyakan: "Jika saya salah memperlakukan kolom ini, apa dampaknya"
+    Konsep ini disebut Risk-Based Data Cleaning (dipakai Amazon, Shoppe, Tokopedia)
+
+    Contoh:
+    ❌ Isi missing amount dengan mean →
+    Revenue salah - laporan CEO salah - fatal.
+    -> Rule nya:
+        Critical Value -> NO IMPUTATION, ONLY DROP
+        Kategori critical:
+        -> amount
+        -> salary
+        -> tax
+        -> sales
+        -> invoice_value
+
+    ❌ Drop region kalau missing -> 
+    Tidak fatal, hanya kurang informasi.
+    -> Rule nya:
+        -> Non-critcal categorical - imputasi mode
+
+    ❌ Biarkan format tanggal rusak -> 
+    Recency/Frequency rusak -> segmentation salah -> fatal
+    Rule nya:
+    -> Datetime is CRITICAL. Must be valid. Must be dropped if broken
+
+    ❌ Tidak standardisasi product_category ->
+    Kategori "Home & Living" dan "home & living" dihitung beda -> insight salah -> fatal
+    Rule nya:
+    -> Categorical must be standardized for stable grouping.
+
+    ❌ Tidak hapus duplikasi ->
+    Frequency customer dobel -> RFM  salah -> fatal
+    Rule nya:
+    -> Duplicate → selalu drop kecuali ada bukti ini transaksi berbeda.
+
+    Jika dampaknya fatal:
+    -> Cleaning harus ketat.
+    Jika dampaknya kecil:
+    -> Cleaning boleh fleksibel
+
+4. Gunakan 3 Pertanyaan Utama Setiap Lihat Kolomnya
+    Setiap kolom, tanyakan:
+    a. "Apa arti kolom ini dalam dunia nyata?"
+        amount -> uang yang benar-benar dibayar.
+        order_date -> waktu transaksi.
+        region -> lokasi customer.
+        product_category -> grup produk.
+
+    b. "Apa yang terjadi jika datanya salah?"
+        amount salah -> revenue salah.
+        order_date salah -> trend dan recency salah.
+        region salah -> tidak terlalu fatal.
+
+    c. "Apakah kolom ini mempengaruhi perhitungan downstream?"
+        Downstream -> ML, clustering, analysis, reporting.
+        Jika jawabannya YA -> cleaning harus lebih ketat.
+
+5. Sadar bahwa cleaning -> Interpretasi, bukan hanya kode.
+    Contoh kesalahan pemula:
+
+    Menganggap data cleaning itu teknis
+    -> fillna
+    -> drop duplicates
+    -> normalize 
+    -> encode
+
+    padahal cleaning itu 70% PSIKOLOGI Bisnis
+
+    Pyhton hanya alat.
+    
+    Yang sebenarnya dilakukan adalah:
+    -> Membaca maksud data
+    -> Memahami alur Bisnis
+    -> Menjaga integritas informasi
+    -> Memastikan model tidak belajar data rusak
+    -> Menjamin analisis bisa dipercaya manajemen
+
+
+Framework Sederhana (5-Step) Untuk Memahami Dataset Baru
+
+setiap kali dapat dataset baru, lakukan:
+
+STEP 1 - Baca 10 - 20 baris pertama
+Tanpa coding dulu.
+Tujuannya:
+-> Lihat pola
+-> Lihat kolom kritikal
+-> Lihat Kategori
+-> Lihat noise
+
+STEP 2 - Tentukann kolom ke kategori berikut:
+-> Identifier
+-> Critical Numeric
+-> Semi-Numeric
+-> Categorical
+-> Datetime
+-> Free text
+
+STEP 3 - Tentukan aturan cleaning berdasarkan kolom
+Contoh:
+-> amount - cannot impute
+-> order_date - cannot impute
+-> product_category - lowercate + normalize
+-> region - mode fill
+-> payment_method - mode fill
+-> custome_id - regex validation
+-> status - standardize
+
+STEP 4 - Identifikasi Tujuan Akhir (ML / Business Metrics)
+Tujuan menentukan perlakuan:
+Tujuan: RFM Segmentation.
+-> Recency butuh tanggal bersih.
+-> Frequency butuh drop duplicates.
+-> Monetary butuh amount akurat.
+-> K-Means butuh scaling.
+
+
+

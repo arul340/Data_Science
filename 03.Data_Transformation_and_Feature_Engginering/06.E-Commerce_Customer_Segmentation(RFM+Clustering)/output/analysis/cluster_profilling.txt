@@ -1,0 +1,26 @@
+CLUSTER PROFILING (AUTO-GENERATED)
+==================================
+
+Cluster 0:
+Recency (Mean Scaled): 0.73
+Frequency (Mean Scaled): 0.05
+Monetary (Mean Scaled): 0.10
+ →  Pelanggan cenderung tidak aktif / hampir churn.
+ →  Pelanggan tidak sering bertransaksi (Low-Value).
+ →  Low spender / nilai transaksi rendah.
+
+Cluster 1:
+Recency (Mean Scaled): 0.21
+Frequency (Mean Scaled): 0.05
+Monetary (Mean Scaled): 0.04
+ →  Pelanggan cukup aktif (recent buyers).
+ →  Pelanggan tidak sering bertransaksi (Low-Value).
+ →  Low spender / nilai transaksi rendah.
+
+Cluster 2:
+Recency (Mean Scaled): 0.17
+Frequency (Mean Scaled): 0.90
+Monetary (Mean Scaled): 0.17
+ →  Pelanggan cukup aktif (recent buyers).
+ →  Pelanggan sering bertransaksi (Loyal/High-Value).
+ →  Low spender / nilai transaksi rendah.

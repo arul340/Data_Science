@@ -1,0 +1,52 @@
+order_id,customer_id,order_date,amount,status,product_category,region,payment_method
+1001,C001,2024-01-03,150000,Delivered,Electronics,West,Credit Card
+1002,C002,2024-01-05,75000,Cancelled,Fashion,East,Debit Card
+1003,C001,2024-01-10,200000,Delivered,Electronics,West,Credit Card
+1004,C003,2024-01-11,120000,Pending,Home & Living,North,COD
+1005,C004,2024-01-12,175000,Delivered,Electronics,South,UPI
+1006,C002,2024-01-13,90000,Shipped,Fashion,East,Debit Card
+1007,C005,2024-01-14,250000,Delivered,Electronics,West,Credit Card
+1008,C006,2024-01-15,50000,Cancelled,Fashion,South,COD
+1003,C001,2024-01-10,200000,Delivered,Electronics,West,Credit Card
+1009,C003,2024-01-16,130000,Delivered,Home & Living,North,UPI
+1010,C001,2024-01-18,90000,Returned,Electronics,West,Debit Card
+1011,C007,2024-01-20,300000,Delivered,Electronics,East,Credit Card
+1012,C004,2024-01-22,200000,Shipped,Electronics,South,UPI
+1013,C008,01/23/2024,45000,Pending,Fashion,North,COD
+1014,C003,2024-01-25,150000,Delivered,Home & Living,North,Credit Card
+1015,C006,2024-01-26,80000,Delivered,Fashion,South,Debit Card
+1016,C009,2024-01-28,220000,Shipped,Electronics,West,UPI
+1017,C010,2024-01-30,140000,Delivered,Home & Living,East,Credit Card
+1018,C011,2024-02-01,95000,Delivered,Fashion,South,Debit Card
+1019,C012,2024-02-02,180000,Cancelled,Electronics,North,Credit Card
+1020,C007,2024-02-03,120000,Delivered,Home & Living,East,UPI
+1021,C013,2024-02-05,275000,Shipped,Electronics,West,Credit Card
+1022,C014,2024-02-06,,Pending,Fashion,South,COD
+1023,C001,2024-02-08,160000,Delivered,Electronics,West,Debit Card
+1024,C015,2024-02-10,85000,Returned,Fashion,North,COD
+1025,C003,2024-02-12,190000,Delivered,home & living,North,Credit Card
+1026,C016,2024-02-15,5000000,Delivered,Electronics,West,Credit Card
+1027,C017,2024-02-18,2500,Delivered,Fashion,East,Debit Card
+1028,INVALID_ID,2024-02-20,75000,Pending,Electronics,South,UPI
+1029,C018,2024-02-22,165000,Shipped,Electronics,West,Credit Card
+1030,C019,2024-02-25,88000,Delivered,Fashion,East,Debit Card
+1031,C002,2024-02-28,145000,Cancelled,Electronics,South,UPI
+1032,C020,2024-03-01,210000,Pending,Home & Living,North,Credit Card
+1033,C021,2024-03-03,95000,Delivered,Fashion,West,Debit Card
+1034,C008,2024-03-05,320000,Shipped,Electronics,East,Credit Card
+1035,C022,2024-03-08,125000,Delivered,Home & Living,South,UPI
+1036,C023,03/10/2024,78000,Pending,Fashion,North,COD
+1037,C001,2024-03-12,185000,Delivered,Electronics,West,Credit Card
+1038,C024,2024-03-15,42000,Cancelled,Fashion,East,Debit Card
+1039,C003,2024-03-18,165000,Shipped,Home & Living,North,UPI
+1040,C025,2024-03-20,290000,Delivered,Electronics,South,Credit Card
+1041,C026,2024-03-22,115000,Pending,Fashion,West,COD
+1042,C027,2024-03-25,198000,Delivered,Electronics,East,Credit Card
+1043,C007,2024-03-28,135000,Returned,Home & Living,South,Debit Card
+1044,C028,2024-03-30,255000,Shipped,Electronics,North,Credit Card
+1045,C029,2024-04-02,68000,Delivered,Fashion,East,UPI
+1046,C030,2024-04-05,172000,Cancelled,Electronics,West,Credit Card
+1047,C008,2024-04-08,89000,Pending,Fashion,South,COD
+1048,C031,2024-04-10,215000,Delivered,Home & Living,North,Debit Card
+1049,C001,2024-04-12,148000,Shipped,Electronics,West,Credit Card
+1050,C032,2024-04-15,195000,Delivered,Electronics,East,UPI

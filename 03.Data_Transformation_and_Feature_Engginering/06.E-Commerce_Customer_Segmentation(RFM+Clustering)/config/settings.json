@@ -1,0 +1,43 @@
+{
+  "project": {
+    "name_project": "E-Commerce_Customer_Segmentation(RFM+Clustering)",
+    "version": "1.0.0",
+    "author": "Arul"
+  },
+  "path": {
+    "input": {
+      "raw_data": "data/raw/transactions.csv"
+    },
+    "output": {
+      "cleaned_data": "data/processed/transactions_cleaned.csv",
+      "features_": "output/features/features_engineering.csv",
+      "reports": "output/reports",
+      "features_engineering": "output/features_enginering",
+      "figures": "output/figures",
+      "model": "output/model",
+      "correlation_map": "output/figures/correlation_map.png"
+    },
+    "logs": {
+      "log_file": "log/pipeline.log.txt"
+    }
+  },
+  "parameters": {
+    "missing_value_strategy": "mean",
+    "merge_key": "id_store",
+    "enable_isolation_forest": true,
+    "isolation_forest_contamination": 0.02,
+    "random_state": 42,
+    "normalization": "minmax",
+    "n_cluster": 3,
+    "figure_size": [8, 6],
+    "k_mean_cluster": 4,
+    "segment_high_threshold": 0.75,
+    "segment_medium_threshold": 0.04
+  },
+  "run_time": {
+    "save_intermediate_file": true,
+    "log_level": "INFO",
+    "log_format": "%(asctime)s - %(levelname)s - %(message)s",
+    "log_datefmt": "%Y-%m-%d %H:%M:%S"
+  }
+}

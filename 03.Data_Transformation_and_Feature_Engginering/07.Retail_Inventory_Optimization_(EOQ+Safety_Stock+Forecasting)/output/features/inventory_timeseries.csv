@@ -1,0 +1,241 @@
+Product_ID,Product_Name,Category,Sub_Category,Qty_Sold,Date
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,8,2025-01-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,7,2025-02-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,9,2025-03-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,6,2025-04-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,10,2025-05-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,12,2025-06-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,11,2025-07-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,9,2025-08-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,8,2025-09-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,13,2025-10-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,15,2025-11-01
+P-001,"Laptop Gaming 15"" Elektronik",Elektronik,Laptop,14,2025-12-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,10,2025-01-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,8,2025-02-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,12,2025-03-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,15,2025-04-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,11,2025-05-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,9,2025-06-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,14,2025-07-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,12,2025-08-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,13,2025-09-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,18,2025-10-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,22,2025-11-01
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,20,2025-12-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,45,2025-01-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,38,2025-02-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,52,2025-03-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,48,2025-04-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,55,2025-05-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,60,2025-06-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,58,2025-07-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,62,2025-08-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,65,2025-09-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,70,2025-10-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,75,2025-11-01
+P-003,Kaos Polo Katun Premium,Pakaian,Pria,80,2025-12-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,12,2025-01-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,10,2025-02-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,15,2025-03-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,18,2025-04-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,14,2025-05-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,16,2025-06-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,13,2025-07-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,11,2025-08-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,9,2025-09-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,22,2025-10-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,20,2025-11-01
+P-004,Blender Multifungsi 5In1,Elektronik,Dapur,18,2025-12-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,65,2025-01-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,55,2025-02-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,70,2025-03-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,68,2025-04-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,72,2025-05-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,80,2025-06-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,78,2025-07-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,85,2025-08-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,88,2025-09-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,95,2025-10-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,100,2025-11-01
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,105,2025-12-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,22,2025-01-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,25,2025-02-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,30,2025-03-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,28,2025-04-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,32,2025-05-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,35,2025-06-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,33,2025-07-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,38,2025-08-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,40,2025-09-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,45,2025-10-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,50,2025-11-01
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,55,2025-12-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,18,2025-01-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,15,2025-02-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,20,2025-03-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,22,2025-04-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,19,2025-05-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,24,2025-06-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,21,2025-07-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,23,2025-08-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,25,2025-09-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,30,2025-10-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,35,2025-11-01
+P-007,Powerbank 20000Mah Fast Charge,Elektronik,Aksesori,32,2025-12-01
+P-008,Unknown Product,Pakaian,Pria,30,2025-01-01
+P-008,Unknown Product,Pakaian,Pria,28,2025-02-01
+P-008,Unknown Product,Pakaian,Pria,35,2025-03-01
+P-008,Unknown Product,Pakaian,Pria,32,2025-04-01
+P-008,Unknown Product,Pakaian,Pria,38,2025-05-01
+P-008,Unknown Product,Pakaian,Pria,40,2025-06-01
+P-008,Unknown Product,Pakaian,Pria,42,2025-07-01
+P-008,Unknown Product,Pakaian,Pria,45,2025-08-01
+P-008,Unknown Product,Pakaian,Pria,48,2025-09-01
+P-008,Unknown Product,Pakaian,Pria,55,2025-10-01
+P-008,Unknown Product,Pakaian,Pria,60,2025-11-01
+P-008,Unknown Product,Pakaian,Pria,65,2025-12-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,10,2025-01-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,12,2025-02-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,15,2025-03-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,14,2025-04-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,18,2025-05-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,20,2025-06-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,16,2025-07-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,14,2025-08-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,12,2025-09-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,25,2025-10-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,22,2025-11-01
+P-009,Panci Stainless Steel 24Cm,Dapur & Masak,Peralatan Masak,20,2025-12-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,3,2025-01-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,4,2025-02-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,6,2025-03-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,5,2025-04-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,7,2025-05-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,8,2025-06-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,6,2025-07-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,5,2025-08-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,4,2025-09-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,9,2025-10-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,10,2025-11-01
+P-010,Headphone Noise Cancelling,Elektronik,Audio,8,2025-12-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,40,2025-01-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,35,2025-02-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,45,2025-03-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,50,2025-04-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,48,2025-05-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,55,2025-06-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,52,2025-07-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,58,2025-08-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,60,2025-09-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,70,2025-10-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,75,2025-11-01
+P-011,Casing Hp Anti Shock,Elektronik,Aksesori,78,2025-12-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,60,2025-01-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,55,2025-02-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,65,2025-03-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,70,2025-04-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,68,2025-05-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,75,2025-06-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,72,2025-07-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,78,2025-08-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,80,2025-09-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,90,2025-10-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,95,2025-11-01
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,100,2025-12-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,110,2025-01-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,105,2025-02-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,115,2025-03-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,120,2025-04-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,125,2025-05-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,130,2025-06-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,128,2025-07-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,135,2025-08-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,140,2025-09-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,150,2025-10-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,160,2025-11-01
+P-013,Pensil Mekanik 0.5Mm,Alat Tulis,Pensil,165,2025-12-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,80,2025-01-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,75,2025-02-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,85,2025-03-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,90,2025-04-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,88,2025-05-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,95,2025-06-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,92,2025-07-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,98,2025-08-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,100,2025-09-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,110,2025-10-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,115,2025-11-01
+P-014,Gula Pasir 1Kg,Makanan & Minuman,Bahan Dasar,120,2025-12-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,25,2025-01-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,22,2025-02-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,30,2025-03-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,28,2025-04-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,32,2025-05-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,35,2025-06-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,33,2025-07-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,36,2025-08-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,38,2025-09-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,45,2025-10-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,50,2025-11-01
+P-015,Kopi Arabica 250Gr,Makanan & Minuman,Minuman,55,2025-12-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,28,2025-01-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,25,2025-02-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,32,2025-03-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,35,2025-04-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,33,2025-05-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,40,2025-06-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,38,2025-07-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,42,2025-08-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,45,2025-09-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,55,2025-10-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,60,2025-11-01
+P-016,Lampu Led 10W Elektronik,Elektronik,Pencahayaan,65,2025-12-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,6,2025-01-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,5,2025-02-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,8,2025-03-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,9,2025-04-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,7,2025-05-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,10,2025-06-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,8,2025-07-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,9,2025-08-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,7,2025-09-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,12,2025-10-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,11,2025-11-01
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,10,2025-12-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,14,2025-01-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,12,2025-02-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,16,2025-03-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,18,2025-04-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,15,2025-05-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,20,2025-06-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,17,2025-07-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,19,2025-08-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,21,2025-09-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,25,2025-10-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,28,2025-11-01
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,30,2025-12-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,18,2025-01-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,15,2025-02-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,22,2025-03-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,20,2025-04-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,24,2025-05-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,28,2025-06-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,26,2025-07-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,29,2025-08-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,30,2025-09-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,35,2025-10-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,40,2025-11-01
+P-019,Kemeja Linen Casual,Pakaian,Pria,42,2025-12-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,12,2025-01-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,10,2025-02-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,14,2025-03-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,16,2025-04-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,13,2025-05-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,18,2025-06-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,15,2025-07-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,17,2025-08-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,16,2025-09-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,22,2025-10-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,25,2025-11-01
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,27,2025-12-01

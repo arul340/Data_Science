@@ -1,0 +1,24 @@
+Product_ID,Product_Name,Category,Sub_Category,Unit_Cost,Selling_Price,Opening_Stock_Jan,Qty_Sold_Jan,Qty_Sold_Feb,Qty_Sold_Mar,Qty_Sold_Apr,Qty_Sold_May,Qty_Sold_Jun,Qty_Sold_Jul,Qty_Sold_Aug,Qty_Sold_Sep,Qty_Sold_Oct,Qty_Sold_Nov,Qty_Sold_Dec,Lead_Time_Days,Ordering_Cost,Holding_Cost_Percent,Service_Level_Target
+P-001,Laptop Gaming 15" Elektronik,Elektronik,Laptop,"Rp 12.500.000","15.750.000",25,8,7,9,6,10,12,11,9,8,13,15,14,7,250000,20%,0.95
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,"550.000",750000,50,15,12,18,22,16,14,20,17,19,25,30,28,3,50000,15,0.90
+P-003,Kaos Polo Katun Premium,pakaian,Pria, 120000,199999,100,45,38,52,48,55,60,58,62,65,70,75,80,10,75000,25%,0.98
+P-004,BLENDER MULTIFUNGSI 5IN1,ELEKTRONIK,Dapur,450000,699000,30,12,10,15,18,14,16,13,11,9,22,20,18,5,,18%,0.90
+P-001,laptop gaming 15,Elektronik,Laptop,"Rp 12.500.000","Rp 15.200.000",15,5,6,8,7,9,11,10,8,7,12,14,12,7,250000,20%,0.95
+P-005,Buku Catatan A5 Premium,Alat Tulis,Buku,25000,45000,200,65,55,70,68,72,80,78,85,88,95,100,105,2,30000,10%,0.85
+P-006,Sweater Hoodie Fleece,Pakaian,Wanita,185000,299000,60,22,25,30,28,32,35,33,38,40,45,50,55,12,80000,22%,0.92
+P-007,Powerbank 20000mAh Fast Charge,Elektronik,Aksesori,225000,349000,40,18,15,20,22,19,24,21,23,25,30,35,32,4,60000,18%,0.88
+P-008,,Pakaian,Pria,85000,149000,80,30,28,35,32,38,40,42,45,48,55,60,65,8,70000,20%,0.94
+P-009,Panci Stainless Steel 24cm,Dapur & Masak,Peralatan Masak,175000,275000,35,10,12,15,14,18,20,16,14,12,25,22,20,6,65000,15%,0.89
+P-010,Headphone Noise Cancelling,Elektronik,Audio,950000,1299000,15,3,4,6,5,7,8,6,5,4,9,10,8,14,300000,25%,0.96
+P-002,Wireless Mouse Bluetooth,Elektronik,Aksesori,"550.000",750000,30,10,8,12,15,11,9,14,12,13,18,22,20,3,50000,15%,0.90
+P-011,Casing HP Anti Shock,Elektronik,Aksesori,75000,125000,120,40,35,45,50,48,55,52,58,60,70,75,78,1,20000,30%,0.87
+P-012,Sabun Mandi Cair Lavender,Perawatan Diri,Mandi,35000,60000,150,60,55,65,70,68,75,72,78,80,90,95,100,2,25000,40%,0.82
+P-013,Pensil Mekanik 0.5mm,Alat Tulis,Pensil,15000,28000,300,110,105,115,120,125,130,128,135,140,150,160,165,1,10000,50%,0.75
+P-005,Buku Catatan A5 - Premium,Alat Tulis,Buku,25000,45000,150,50,45,55,60,58,65,62,68,70,80,85,90,2,30000,10%,0.85
+P-014,Gula Pasir 1kg,Makanan & Minuman,Bahan Dasar,14000,18000,200,80,75,85,90,88,95,92,98,100,110,115,120,3,15000,5%,0.99
+P-015,Kopi Arabica 250gr,Makanan & Minuman,Minuman,75000,120000,80,25,22,30,28,32,35,33,36,38,45,50,55,5,50000,15%,0.93
+P-016,Lampu LED 10W Elektronik,Elektronik,Pencahayaan,35000,65000,90,28,25,32,35,33,40,38,42,45,55,60,65,4,40000,12%,0.91
+P-017,Tempat Sampah Stainless 30L,Rumah Tangga,Dekorasi,120000,189000,25,6,5,8,9,7,10,8,9,7,12,11,10,9,55000,18%,0.86
+P-018,Charger Fast Charging 45W,Elektronik,Aksesori,150000,229000,45,14,12,16,18,15,20,17,19,21,25,28,30,3,45000,22%,0.89
+P-019,Kemeja Linen Casual,Pakaian,Pria,220000,359000,55,18,15,22,20,24,28,26,29,30,35,40,42,10,85000,20%,0.94
+P-020,Ransel Laptop Anti Air,Elektronik,Aksesori,185000,315000,40,12,10,14,16,13,18,15,17,16,22,25,27,5,60000,25%,0.92

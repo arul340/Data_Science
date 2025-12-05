@@ -1,0 +1,27 @@
+{
+  "project": {
+    "name_project": "Retail Inventory Optimization (EQQ + Safety Stock + Forecasting)",
+    "version": "1.0.0",
+    "author": "Arul"
+  },
+  "paths": {
+    "input": {
+      "raw_data": "data/raw/raw_inventory_data.csv"
+    },
+    "output": {
+      "cleaned_data": "data/processed/inventory_data_cleaned.csv",
+      "inventory_features": "output/features/inventory_features.csv",
+      "inventory_eoq": "output/features/inventory_eoq.csv",
+      "safety_stock_and_rop": "output/features/safety_stock_and_rop.csv"
+    },
+    "logs": {
+      "log_file": "log/pipeline.log.txt"
+    }
+  },
+  "run_time": {
+    "save_intermediate_file": true,
+    "log_level": "INFO",
+    "log_format": "%(asctime)s - %(levelname)s - %(message)s",
+    "log_datefmt": "%Y-%m-%d %H:%M:%S"
+  }
+}

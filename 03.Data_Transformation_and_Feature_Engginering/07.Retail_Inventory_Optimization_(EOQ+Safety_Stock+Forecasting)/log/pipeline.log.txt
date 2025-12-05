@@ -1,0 +1,1406 @@
+Test Log Info Message
+2025-12-02 20:32:08 - INFO - Test Log Info Message
+Test Log Error Message
+2025-12-02 20:32:08 - ERROR - Test Log Error Message
+Test Log Warning Message
+2025-12-02 20:32:08 - WARNING - Test Log Warning Message
+
+==================================================
+ >>> Starting Stage: Test Log Stage
+==================================================
+2025-12-02 20:32:08 - INFO - 
+==================================================
+ >>> Starting Stage: Test Log Stage
+==================================================
+
+==================================================
+ >>> Starting Stage: Test Log Stage
+==================================================
+2025-12-02 20:32:08 - INFO - 
+==================================================
+ >>> Starting Stage: Test Log Stage
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+2025-12-02 21:20:22 - INFO - 
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+2025-12-02 21:20:22 - INFO - Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:20:22 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+2025-12-02 21:20:22 - ERROR - Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+2025-12-02 21:21:34 - INFO - 
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+2025-12-02 21:21:34 - INFO - Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:21:34 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+2025-12-02 21:21:34 - ERROR - Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+Pipeline stopped due to Data Loading Failure.
+2025-12-02 21:21:34 - ERROR - Pipeline stopped due to Data Loading Failure.
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+2025-12-02 21:22:45 - INFO - 
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+2025-12-02 21:22:45 - INFO - Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:22:45 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:22:45 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+2025-12-02 21:22:45 - ERROR - Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+Pipeline stopped due to Data Loading Failure.
+2025-12-02 21:22:45 - ERROR - Pipeline stopped due to Data Loading Failure.
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+2025-12-02 21:22:50 - INFO - 
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+2025-12-02 21:22:50 - INFO - Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:22:50 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:22:50 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+2025-12-02 21:22:50 - ERROR - Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+Pipeline stopped due to Data Loading Failure.
+2025-12-02 21:22:50 - ERROR - Pipeline stopped due to Data Loading Failure.
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+2025-12-02 21:30:20 - INFO - 
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+2025-12-02 21:30:20 - INFO - Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:30:20 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:30:20 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+2025-12-02 21:30:20 - ERROR - Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+Pipeline stopped due to Data Loading Failure.
+2025-12-02 21:30:20 - ERROR - Pipeline stopped due to Data Loading Failure.
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+2025-12-02 21:31:49 - INFO - 
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+2025-12-02 21:31:49 - INFO - Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:31:49 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+2025-12-02 21:31:49 - INFO - 
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+2025-12-02 21:31:49 - ERROR - Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+Pipeline stopped due to Data Loading Failure.
+2025-12-02 21:31:49 - ERROR - Pipeline stopped due to Data Loading Failure.
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+Pipeline stopped due to Data Loading Failure.
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Failed to load data: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'dict'
+Pipeline stopped due to Data Loading Failure.
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to output/features/inventory_features.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Forecasting
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Forecasting
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Forecasting
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Forecasting
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Forecasting
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Forecasting
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Forecasting
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Initialization
+==================================================
+Configuration loaded successfully from config/settings.json
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Loading
+==================================================
+Loaded single file: raw_inventory_data.csv (23 rows) (23 cols)
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+
+==================================================
+ >>> Starting Stage: Data Cleaning
+==================================================
+Removed 3 duplicated rows by Product ID.
+Stage 'Data Cleaning' completed successfully! 
+
+Cleaned data saved to data/processed/inventory_data_cleaned.csv
+
+==================================================
+ >>> Starting Stage: Inventory Optimization
+==================================================
+
+==================================================
+ >>> Starting Stage: Feature Engineering
+==================================================
+Stage 'Feature Engineering Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: EOQ Calculation
+==================================================
+Stage 'EOQ Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Safety Stock and Reorder Point Calculation
+==================================================
+
+==================================================
+ >>> Starting Stage: Safety Stock & Reorder Point Calculation
+==================================================
+Stage 'Safety Stock & Reorder Point Calculation Completed' completed successfully! 
+
+
+==================================================
+ >>> Starting Stage: Time Series Prep
+==================================================
+
+==================================================
+ >>> Starting Stage: Forecasting
+==================================================
+
+==================================================
+ >>> Starting Stage: Pipeline Complete
+==================================================
